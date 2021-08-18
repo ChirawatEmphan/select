@@ -1,0 +1,42 @@
+{
+"source" : {{1.responseId}},
+"fulfillmentText" : "สวัสดี",
+   fulfillmentMessages: [
+     {
+       platform: 'line',
+       type: 4,
+       payload: {
+       line: {
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "
+A2 = 08.00 - 12.00 น.
+B2 = 13.00 - 17.00 น.
+
+{{7.value}}
+กรุณาเลือกหมายเลขที่ต้องการครับ
+
+",
+          "margin": "xl",
+          "align": "start",
+          "weight": "regular",
+          "color": "#090808",
+          "wrap": true
+        }
+      ]
+    }
+  }
+ }
+ }
+ }
+]
+}
